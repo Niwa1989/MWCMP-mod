@@ -44,7 +44,7 @@
 Выполните команду: **git clone https://github.com/tudorek12345/my-winter-car-mp-mod**
 
 **2. Укажите путь к игре**  
-Откройте файл **src/MyWinterCarMpMod.csproj** (через блокнот). Найдите строку **<GameDir Condition=" '$(GameDir)' == '' ">ЗДЕСЬ_ПУТЬ</GameDir>** и замените **ЗДЕСЬ_ПУТЬ** на путь к папке с игрой, например **C:\Program Files (x86)\Steam\steamapps\common\MyWinterCar**. Сохраните файл.
+Откройте файл **src/MyWinterCarMpMod.csproj** (через блокнот). Найдите строку GameDir Condition=" '$(GameDir)' == '' ">ЗДЕСЬ_ПУТЬ</GameDir и замените ЗДЕСЬ_ПУТЬ на путь к папке с игрой, например **C:\Program Files (x86)\Steam\steamapps\common\MyWinterCar. Сохраните файл.
 
 **3. Соберите проект**  
 Откройте **my-winter-car-mp-mod.sln** в Visual Studio (или VS Code с C#). Нажмите **Ctrl + Shift + B** (или выберите **«Собрать решение»**). Если сборка успешна, вы увидите **Сборка: успешно — 1, сбоев — 0**.
